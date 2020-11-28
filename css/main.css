@@ -1,3 +1,15 @@
+.link:hover, .link:focus, .btn:hover, .btn:focus, .btn:active, .social-icons-link:hover, .social-icons-link:focus, .social-icons-link:hover .social-icons-svg,
+.social-icons-link:focus .social-icons-svg, .backdrop, .input-wrapper:focus-within > .modal-icon, .input-wrapper:focus-within > .input, .comment-field:focus-within .comment-input, .checkbox:checked + .checkbox-icon, .modal-close-btn:hover, .modal-close-btn:focus, .modal-close-btn:hover .modal-close-btn-icon,
+.modal-close-btn:focus .modal-close-btn-icon, .header-contacts-link:focus .header-icons-mail,
+.header-contacts-link:hover .header-icons-mail,
+.header-contacts-link:hover .header-icons-phone,
+.header-contacts-link:focus .header-icons-phone, .customers-link:hover, .customers-link:focus, .customers-link:hover .customers-icons-svg,
+.customers-link:focus .customers-icons-svg, .dark-bg .link:hover,
+.dark-bg .link:focus {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 html {
   box-sizing: border-box;
 }
@@ -69,8 +81,6 @@ address {
 
 .link:hover, .link:focus {
   color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .title {
@@ -95,15 +105,11 @@ address {
 }
 
 .btn:hover, .btn:focus {
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .btn:active {
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #188ce8;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -128,15 +134,11 @@ address {
 
 .social-icons-link:hover, .social-icons-link:focus {
   background-color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icons-link:hover .social-icons-svg,
 .social-icons-link:focus .social-icons-svg {
   fill: #ffffff;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icons-svg {
@@ -169,8 +171,6 @@ address {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -216,15 +216,11 @@ address {
 
 .input-wrapper:focus-within > .modal-icon {
   fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-wrapper:focus-within > .input {
   outline: none;
   border: 1px solid #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input {
@@ -297,8 +293,6 @@ address {
 .comment-field:focus-within .comment-input {
   outline: none;
   border: 1px solid #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .policy-field {
@@ -326,8 +320,6 @@ address {
   background-image: url(../images/icons/check-icon.svg);
   background-size: contain;
   background-origin: border-box;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox-icon {
@@ -370,15 +362,11 @@ address {
 
 .modal-close-btn:hover, .modal-close-btn:focus {
   border: 1px solid #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:hover .modal-close-btn-icon,
 .modal-close-btn:focus .modal-close-btn-icon {
   fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn-icon {
@@ -517,8 +505,6 @@ address {
 .header-contacts-link:hover .header-icons-phone,
 .header-contacts-link:focus .header-icons-phone {
   fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contacts-item:not(:last-child) {
@@ -738,15 +724,11 @@ address {
 .customers-link:hover, .customers-link:focus {
   border: 1px solid #2196f3;
   border-radius: 4px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-link:hover .customers-icons-svg,
 .customers-link:focus .customers-icons-svg {
   fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-icons-svg {
@@ -815,8 +797,6 @@ address {
 .dark-bg .link:hover,
 .dark-bg .link:focus {
   color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .dark-bg .footer-link {

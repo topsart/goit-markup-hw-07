@@ -1,3 +1,13 @@
+.link:hover, .link:focus, .btn:hover, .btn:focus, .btn:active, .social-icons-link:hover, .social-icons-link:focus, .social-icons-link:hover .social-icons-svg,
+.social-icons-link:focus .social-icons-svg, .header-contacts-link:focus .header-icons-mail,
+.header-contacts-link:hover .header-icons-mail,
+.header-contacts-link:hover .header-icons-phone,
+.header-contacts-link:focus .header-icons-phone, .portfolio-item:hover, .portfolio-item:focus, .dark-bg .link:hover,
+.dark-bg .link:focus {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 html {
   box-sizing: border-box;
 }
@@ -69,8 +79,6 @@ address {
 
 .link:hover, .link:focus {
   color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .title {
@@ -95,15 +103,11 @@ address {
 }
 
 .btn:hover, .btn:focus {
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .btn:active {
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #188ce8;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -128,15 +132,11 @@ address {
 
 .social-icons-link:hover, .social-icons-link:focus {
   background-color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icons-link:hover .social-icons-svg,
 .social-icons-link:focus .social-icons-svg {
   fill: #ffffff;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icons-svg {
@@ -293,8 +293,6 @@ address {
 .header-contacts-link:hover .header-icons-phone,
 .header-contacts-link:focus .header-icons-phone {
   fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contacts-item:not(:last-child) {
@@ -370,8 +368,6 @@ address {
 
 .portfolio-item:hover, .portfolio-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-thumb {
@@ -453,8 +449,6 @@ address {
 .dark-bg .link:hover,
 .dark-bg .link:focus {
   color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .dark-bg .footer-link {

@@ -18,15 +18,13 @@
   &:hover,
   &:focus {
     background-color: $accent-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @extend %transition;
   }
 
   &:hover .social-icons-svg,
   &:focus .social-icons-svg {
     fill: $white;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @extend %transition;
   }
 }
 

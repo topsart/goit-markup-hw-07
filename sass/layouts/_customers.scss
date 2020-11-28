@@ -24,15 +24,13 @@
   &:focus {
     border: 1px solid $accent-color;
     border-radius: 4px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @extend %transition;
   }
 
   &:hover .customers-icons-svg,
   &:focus .customers-icons-svg {
     fill: $accent-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @extend %transition;
   }
 }
 

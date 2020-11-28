@@ -22,15 +22,13 @@
 
   &:focus-within > .modal-icon {
     fill: $accent-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @extend %transition;
   }
 
   &:focus-within > .input {
     outline: none;
     border: 1px solid $accent-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @extend %transition;
   }
 }
 
@@ -102,8 +100,7 @@
   &:focus-within .comment-input {
     outline: none;
     border: 1px solid $accent-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @extend %transition;
   }
 }
 
@@ -131,8 +128,7 @@
     background-image: url(../images/icons/check-icon.svg);
     background-size: contain;
     background-origin: border-box;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @extend %transition;
   }
 }
 
@@ -176,15 +172,13 @@
   &:hover,
   &:focus {
     border: 1px solid $accent-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @extend %transition;
   }
 
   &:hover .modal-close-btn-icon,
   &:focus .modal-close-btn-icon {
     fill: $accent-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @extend %transition;
   }
 }
 
