@@ -1,0 +1,20 @@
+.dark-bg {
+  background-color: $dark-bg;
+
+  .title,
+  .link,
+  .logo {
+    color: $white;
+  }
+
+  .link:hover,
+  .link:focus {
+    color: $accent-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .footer-link {
+    color: rgba(255, 255, 255, 0.6);
+  }
+}

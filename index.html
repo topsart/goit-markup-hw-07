@@ -7,7 +7,7 @@
 			<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
 				rel="stylesheet">
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
-  	  		<link rel="stylesheet" href="./css/styles.css" />				
+  	  		<link rel="stylesheet" href="./css/main.min.css" />				
   	</head>
   	<body>
   	  	<!-- Шапка -->
@@ -32,7 +32,7 @@
   	    		<!-- Контакты -->
   	    		<ul class="header-contacts list">
   	      			<li class="header-contacts-item">
-						<a href="mailto:info@devstudio.com" class="link header-link">							
+						<a href="mailto:info@devstudio.com" class="link header-contacts-link">							
 							<svg class="header-icons-mail">
 								<use href="./images/sprite.svg#mail-icon"></use>
 							</svg>
@@ -40,7 +40,7 @@
 						</a>
 					</li>
   	      			<li class="header-contacts-item">
-						<a href="tel:+380961111111" class="link header-link">
+						<a href="tel:+380961111111" class="link header-contacts-link">
 							<svg class="header-icons-phone">
 								<use href="./images/sprite.svg#smartphone-icon"></use>
 							</svg>
@@ -428,7 +428,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="footer-form">
+				<div class="subscribe-form">
 					<h4 class="title">Подпишитесь на рассылку</h4>
 					<form>
 						<input class="email-field" type="email" name="sub-email" placeholder="E-mail" required>
@@ -440,9 +440,8 @@
 		<!-- Модалка -->
 		<div class="backdrop is-hidden" data-modal>
 			<div class="modal">
-				<h4 class="title modal-title">Оставьте свои данные, мы вам перезвоним</h4>
 				<form class="modal-form">
-
+					<h4 class="title modal-title">Оставьте свои данные, мы вам перезвоним</h4>
 					<div class="name-field">
 						<label class="lable" for="name">Имя</label>
 						<div class="input-wrapper">
@@ -484,11 +483,10 @@
 							<span class="checkbox-icon"></span>
 							Соглашаюсь с рассылкой и принимаю<a class="policy-link" href="">Условия договора</a>
 						</label>
-					</div>
+					</div>					
 					
-					<div class="btn-field">
-						<button class="btn modal-submit-btn" type="submit">Отправить</button>
-					</div>
+					<button class="btn modal-submit-btn" type="submit">Отправить</button>
+					
 					<button type="button" class="modal-close-btn" data-modal-close>
 						<svg class="modal-close-btn-icon">
 							<use href="./images/sprite.svg#close-btn-icon"></use>
